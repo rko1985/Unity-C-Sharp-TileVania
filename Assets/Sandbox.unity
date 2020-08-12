@@ -9915,6 +9915,12 @@ PolygonCollider2D:
       - {x: -17.820932, y: -5.755331}
       - {x: 20.985418, y: -5.847807}
       - {x: 20.934221, y: 10.017315}
+--- !u!95 &1853578580 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8256901170092250786, guid: 6a81734233caa6e4a98f3f7b92554756,
+    type: 3}
+  m_PrefabInstance: {fileID: 8256901170856344239}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6990211855087770501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9922,6 +9928,24 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 816741261, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1586367368}
+    - target: {fileID: 816741262, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 574128123}
+    - target: {fileID: 2957238681206464113, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e,
+        type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1586367368}
+    - target: {fileID: 6413327532836368575, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 574128123}
     - target: {fileID: 6990211854039387433, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e,
         type: 3}
       propertyPath: m_BoundingShape2D
@@ -9992,6 +10016,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cameras
       objectReference: {fileID: 0}
+    - target: {fileID: 8626361252941912899, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e,
+        type: 3}
+      propertyPath: m_ChildCameras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8626361252941912899, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e,
+        type: 3}
+      propertyPath: m_AnimatedTarget
+      value: 
+      objectReference: {fileID: 1853578580}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bcff0f9fd338c947a22fad7cb0cfa0e, type: 3}
 --- !u!1001 &8256901170856344239
